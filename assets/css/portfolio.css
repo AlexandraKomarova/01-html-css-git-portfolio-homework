@@ -1,0 +1,24 @@
+.portfolio-img {
+    width: 50%;
+    height: 220px;
+    float: left;
+    text-align: center;
+     
+}
+
+h2 {
+    margin-bottom: 17px;
+}
+
+img {
+    width: 70%;
+}
+
+img:hover {
+    box-shadow: 4px 4px 4px grey;
+}
+
+main {
+    height: 600px;
+    background-image: url(../images/wavegrid.png);
+}

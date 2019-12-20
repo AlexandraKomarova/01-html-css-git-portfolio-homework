@@ -1,0 +1,42 @@
+h2 {
+    margin-bottom: 17px;
+}
+
+form {
+    margin-left: 40px;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+    width: 80%;
+    margin-top: 10px;
+    height: 20px;
+}
+
+textarea {
+    margin-top: 13px;
+}
+
+main {
+    height: 500px;
+}
+
+label {
+    font-family: 'Arapey', serif;
+}
+
+input:focus {
+    box-shadow: 4px 4px 4px grey;
+}
+
+#submit {
+    width: 15%;
+    height: 30px;
+    font-family: 'Arapey', serif;
+}
