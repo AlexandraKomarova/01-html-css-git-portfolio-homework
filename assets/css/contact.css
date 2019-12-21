@@ -10,6 +10,7 @@ label {
     display: block;
     width: 100%;
     margin-bottom: 20px;
+    font-family: 'Arapey', serif;
 }
 
 input {
@@ -21,22 +22,19 @@ input {
 
 textarea {
     margin-top: 13px;
+    max-width: 700px;
 }
 
 main {
-    height: 500px;
+    height: 520px;
 }
 
-label {
-    font-family: 'Arapey', serif;
-}
-
-input:focus {
-    box-shadow: 4px 4px 4px grey;
-}
-
-#submit {
+#sub-btn {
     width: 15%;
-    height: 30px;
+   
     font-family: 'Arapey', serif;
+    margin-top: ;
+    display: block;
+    height: 40px;
+    
 }

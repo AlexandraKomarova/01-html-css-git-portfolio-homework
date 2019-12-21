@@ -1,23 +1,69 @@
-.portfolio-img {
-    width: 50%;
-    height: 220px;
-    float: left;
-    text-align: center;
+main {
+    background-image: url(../images/wavegrid.png);
 }
 
 h2 {
     margin-bottom: 17px;
 }
 
-img {
-    width: 70%;
+.portfolio-item {
+    width: 50%;
+    height: 240px;
+    float: left;
+    text-align: center;
 }
 
-img:hover {
-    box-shadow: 4px 4px 4px grey;
+/* I'm not sure why text-align: center centers my divs within the wrapper being applied to divs themselves. Is it because of the float? it makes the all elements inline?
+ */
+
+ .site-1 {
+     height: 45%;
+ }
+
+ .site-2 {
+    height: 47%;
 }
 
-main {
-    height: 600px;
-    background-image: url(../images/wavegrid.png);
+.site-3 {
+    height: 49%;
 }
+
+.site-4 {
+    height: 49%;
+}
+
+.portfolio-img img {
+    width: 45%;
+}
+
+.description {
+    background-color: #ebf2f5; 
+    margin-top: 0;
+    width: 45%;
+    margin: 0 auto;
+}
+
+/* .description p I had to center with margin: 0 auto, text-align didn't work anymore */
+
+.description p {
+    letter-spacing: 0.6px;
+    font-size: 15px;
+    padding: 10px;
+    margin: 0;
+    color:#6894a6;
+}
+
+.description p a {
+    text-decoration: none;
+    color: #6894a6;
+}
+
+.description p a:hover {
+   color: #f5811b;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+  }

@@ -25,31 +25,35 @@ h1 {
     color: white;
 }
 
-
-a {
+.nav-item {
     float: right;
     margin-left: 25px;
     margin-top: 22px;
 }
 
-a:not(:first-of-type) {
+.nav-item:not(:first-of-type) {
     border-right: 1px solid #f5811b;
 }
 
-a:not(:first-of-type) {
+.nav-item:not(:first-of-type) {
     padding-right: 25px;
 }
 
-a:first-of-type {
+.nav-item:first-of-type {
     margin-right: 10px;
 }
 
-a {
+.nav-item a {
     text-decoration: none;
     color: #6894a6;
     font-family: 'PT Serif Caption', serif;
 }
 
+.nav-item a {
+    text-decoration: none;
+    color: #6894a6;
+    font-family: 'PT Serif Caption', serif;
+}
 
 main {
     width: 960px;
@@ -94,7 +98,7 @@ h2::after {
     float: left;
 }
 
-img {
+.photo img {
     width: 200px;
     margin-right: 20px;
 }
