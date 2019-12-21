@@ -1,5 +1,6 @@
 h2 {
     margin-bottom: 17px;
+    
 }
 
 form {
@@ -15,25 +16,40 @@ label {
 
 input {
     display: block;
-    width: 80%;
+    width: 600px;
     margin-top: 10px;
     height: 20px;
 }
 
+input:focus {
+    outline: none;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px #6894a6;
+}
+
 textarea {
     margin-top: 13px;
-    max-width: 700px;
+    max-width: 600px;
+}
+
+textarea:focus {
+    outline: none;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px #6894a6;
 }
 
 main {
-    height: 520px;
+    height: 530px;
 }
 
 #sub-btn {
     width: 15%;
-   
+    background-color: #6894a6;
     font-family: 'Arapey', serif;
-    margin-top: ;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
     display: block;
     height: 40px;
     
